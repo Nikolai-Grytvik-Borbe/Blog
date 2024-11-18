@@ -38,7 +38,7 @@
     }
 
     .navbar {
-        transition: box-shadow 0.5s ease-in-out, background-color 2s ease-in-out; 
+        transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out; 
     }
 </style>
 
