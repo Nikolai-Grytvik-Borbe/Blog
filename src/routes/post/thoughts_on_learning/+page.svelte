@@ -30,7 +30,7 @@ Please note, these ideas are very experimental and advanced. They are difficult 
 </p>
 <br>
 <p>
-The skill of learning, as I will try to teach in this text, is not dependent upon the three revelations listed above, but I don't see anyone having success without first having had them. This is simply because it's such a far fetched idea, where each revelation has to first be personally felt, before it will become believable. Chances are, you might have only experienced one of these revelations, if not even that. If you have been in the military, and been through hell week (or a verision of it), you will know what it means to be tired. Use this experience and compare it to the other two to get a feeling of what I'm talking about. If you have been trough hell week, you know what it feels like to be tired and too keep pushing, so when you relate that to other stuff, you can recognize that feeling when it comes up. Same with meditation, I can explain what the feeling is, but if you have felt being in selflessess you will recognize it when it happens and you can use this (now new skill of yours) in new ways.
+The skill of learning, as I will try to teach in this text, is not dependent upon the three revelations listed above, but I don't see anyone having success without first having had them. This is simply because it's such a far fetched idea, where each revelation has to first be personally felt, before it will become believable. Chances are, you might have only experienced one of these revelations, if not even that. If you have been in the military, and been through hell week (or a version of it), you will know what it means to be tired. Use this experience and compare it to the other two to get a feeling of what I'm talking about. If you have been through hell week, you know what it feels like to be tired and to keep pushing, so when you relate that to other stuff, you can recognize that feeling when it comes up. Same with meditation, I can explain what the feeling is, but if you have felt being in selflessness you will recognize it when it happens and you can use this (now new skill of yours) in new ways.
 </p>
 
 <p>
@@ -68,7 +68,7 @@ The practice is about getting the feeling (or intentionally triggering it) and t
 Learning is often portrayed like this: 
 <br>
 <p class="text-base">
-    (Note: this is the reason for <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline"><i>promodoro</i></a>, and science can support this. It is important that we factor out maturity and motivation for the accuracy of this graph. E.g. This graph is probably very accurate for an unmotivated college student:
+    (Note: this is the reason for <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline"><i>promodoro</i></a>, and science can support this. This graph is probably very accurate for an unmotivated college student:
 </p>
 <p>
 <img src="/promodoro1.png" alt="commonly thought of promodoro learning">
