@@ -14,12 +14,12 @@
 <p class="">
 I have had some key ideas, that resulted in a, I believe, powerful idea for how to learn. And I thought I should share this idea. 
 </p>
-
+a_shortification_on_learning
 <div class="py-2"></div>
 The idea is based on three key revelations,
 <div class="pl-6">
     <ol class="list-decimal list-inside space-y-2">
-        <li class="pt-2"><a href="https://twitter.com/karpathy/status/1756380066580455557" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">How to learn by</a> Andrej Karphathy</li>
+        <li class="pt-2"><a href="/post/a_shortification_on_learning" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline"># a shortification on "learning"</a> by Andrej Karphathy</li>
         <li><a href="https://www.youtube.com/watch?v=FXEvw87JsHU" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Selflessness</a> by Sam Harris & <a href="https://www.youtube.com/watch?v=HkhHvP8emRM" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">On burning out</a> by Jonathan Blow</li>
         <li><a href="https://www.goodreads.com/quotes/9907364-when-you-think-that-you-are-done-you-re-only-40" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">What it means to be tired</a> by David Goggins & personal military experience</li>
     </ol>
