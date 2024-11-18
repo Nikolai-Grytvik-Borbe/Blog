@@ -61,11 +61,15 @@
             </button>
 
             <ul class="pt-20 pl-6">
-                <div class="py-4 hover:opacity-90 transition-all"><a href="/">Home</a></div>
+                <a href="/" on:click={() => toggle_hamburger = !toggle_hamburger}>
+                    <div class="py-4 hover:opacity-90 transition-all">Home</div>
+                </a>
                 <div class="pr-6">
                     <hr>
                 </div>
-                <div class="py-4 hover:opacity-90 transition-all"><a href="https://nikolai.vip/about/" target="_blank" >Contact</a></div>
+                <a href="https://nikolai.vip/about/" target="_blank" >
+                    <div class="py-4 hover:opacity-90 transition-all">Contact</div>
+                </a>
             </ul>
         </div>
     {/if}

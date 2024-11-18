@@ -7,10 +7,8 @@
 
 <a href={`/post/${link}`}>
     <div class="border-t py-4 border-gray-500 hover:cursor-pointer">
-        <div class="flex justify-between items-center">
-            <h1 class="text-3xl font-bold mb-4">{title}</h1>
-            <p class="text-sm">{date}</p>
-        </div>
+        <h1 class="text-3xl font-bold">{title}</h1>
+        <p class="text-sm mb-2">{date}</p>
         <p class="mb-4">{description}</p>
     </div>
 </a>
