@@ -12,9 +12,8 @@
 
 <!-- POST -->
 <p class="">
-I have had some key ideas, that resulted in a, I believe, powerful idea for how to learn. And I thought I should share this idea. 
+I have had some key ideas, that resulted in, I believe, a powerful idea for how to learn. I thought I should share this idea. 
 </p>
-a_shortification_on_learning
 <div class="py-2"></div>
 The idea is based on three key revelations,
 <div class="pl-6">
