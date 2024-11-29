@@ -21,7 +21,7 @@
 </script>
 
 <div class="flex w-full justify-center pt-14">
-    <div class="w-full max-w-[1000px] px-4 pt-14 pb-14 text-lg">
+    <div class="w-full max-w-[700px] px-4 pt-14 pb-14 text-lg">
         <ReadingProgress progress={progress} />
         <slot />
     </div>

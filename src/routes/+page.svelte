@@ -4,8 +4,8 @@
 
 
 </script>
-<div class="flex w-full justify-center pt-20">
-    <div class="w-full max-w-[1000px] px-4 pt-14">
+<div class="flex w-full justify-center px-4 pt-20">
+    <div class="w-full max-w-[800px] pt-14">
         <div>
             <p class="mb-10">Hi! This is my blog. I have a lot of ideas, and like to have somewhere to write them down and make them "official". So this is it.</p>
             <Post title="Thoughts on Learning" description="How do we learn, and how do we think we learn?" date="2024-11-18" link="thoughts_on_learning"/>
