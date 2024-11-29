@@ -11,10 +11,10 @@ Note: I was scared this would ever get lost so I decided to save it here.
 </p>
 <br>
 
-<h1 class="text-3xl font-bold mb-2">
+<h1 class="text-3xl font-bold mb-1">
     {title}
 </h1>
-<p class="text-sm mb-2">
+<p class="text-sm mb-4">
     {date}
 </p>
 

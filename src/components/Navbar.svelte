@@ -14,6 +14,7 @@
 
     let scrolled = false;
     let lastScrollY = 0;
+    let window_pos = 0
     onMount(() => {
         function handleScroll() {
             const currentScrollY = window.scrollY;
@@ -21,6 +22,10 @@
             // Toggle shadow based on whether the user is scrolling up or down
             scrolled = currentScrollY > 10 || lastScrollY > 10;
             lastScrollY = currentScrollY;
+            window_pos = window.scrollY;
+            if (window_pos < 10) {
+                scrolled = false;
+            }
         }
 
         window.addEventListener('scroll', handleScroll);
@@ -38,7 +43,7 @@
     }
 
     .navbar {
-        transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out; 
+        transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out; 
     }
 </style>
 
@@ -46,12 +51,33 @@
 <div class="block md:hidden">
   <!-- Mobile Navbar -->
     <div class="fixed w-full">
+        {#if scrolled}
+            <div class="flex justify-end">
+                <div class="w-20">
+                    <div class="flex justify-center h-12 m-4 px-4 items-center rounded-2xl border border-gray-700 navbar {scrolled ? 'shadow-on-scroll' : ''}">
+                        <button on:click={() => toggle_hamburger = !toggle_hamburger}>
+                            <Hamburger size={size} color_mode={color_mode}/>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        {:else}
+            <div class="flex justify-between h-12 m-4 px-4 items-center rounded-2xl border border-gray-700 navbar {scrolled ? 'shadow-on-scroll' : ''}">
+                <div><a href="https://nikolai.vip/" target="_blank" ><NGB color_mode={color_mode}/></a></div>
+                <button on:click={() => toggle_hamburger = !toggle_hamburger}>
+                    <Hamburger size={size} color_mode={color_mode}/>
+                </button>
+            </div>
+        {/if}
+        <!--
         <div class="flex justify-between h-12 m-4 px-4 items-center rounded-2xl border border-gray-700 navbar {scrolled ? 'shadow-on-scroll' : ''}">
             <div><a href="https://nikolai.vip/" target="_blank" ><NGB color_mode={color_mode}/></a></div>
             <button on:click={() => toggle_hamburger = !toggle_hamburger}>
                 <Hamburger size={size} color_mode={color_mode}/>
             </button>
         </div>
+        -->
     </div>
     {#if toggle_hamburger}
         <div class="{color_bg} {color_text} fixed top-0 right-0 h-full w-72 z-50 shadow-lg border-l border-gray-700">

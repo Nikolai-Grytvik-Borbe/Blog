@@ -1,0 +1,15 @@
+<script lang="ts">
+    export let progress: number = 0;
+
+    let width;
+    $: width = progress
+    
+</script>
+
+<div class="fixed bottom-2 w-full max-w-[1000px]">
+    <div class="rounded rounded-5xl outline outline-1 bg-white outline-gray-600 h-2 ml-32 mr-40 ">
+        <div style="width: {width}%;" class="h-2 bg-black rounded rounded-r-5xl">
+        </div>
+
+    </div>
+</div>

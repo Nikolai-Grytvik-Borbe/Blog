@@ -3,10 +3,10 @@
     let title = "A Morning, A Day, and A Night";
 </script>
 
-<h1 class="text-3xl font-bold mb-2">
+<h1 class="text-3xl font-bold mb-1">
     {title}
 </h1>
-<p class="text-sm mb-2">
+<p class="text-sm mb-4">
     {date}
 </p>
 
