@@ -51,25 +51,12 @@
 <div class="block md:hidden">
   <!-- Mobile Navbar -->
     <div class="fixed w-full">
-        {#if scrolled}
-            <div class="flex justify-end">
-                <div class="w-20">
-                    <div class="flex justify-center h-12 m-4 px-4 items-center rounded-2xl border border-gray-700 navbar {scrolled ? 'shadow-on-scroll' : ''}">
-                        <button on:click={() => toggle_hamburger = !toggle_hamburger}>
-                            <Hamburger size={size} color_mode={color_mode}/>
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        {:else}
-            <div class="flex justify-between h-12 m-4 px-4 items-center rounded-2xl border border-gray-700 navbar {scrolled ? 'shadow-on-scroll' : ''}">
-                <div><a href="https://nikolai.vip/" target="_blank" ><NGB color_mode={color_mode}/></a></div>
-                <button on:click={() => toggle_hamburger = !toggle_hamburger}>
-                    <Hamburger size={size} color_mode={color_mode}/>
-                </button>
-            </div>
-        {/if}
+        <div class="flex justify-between h-12 m-4 px-4 items-center rounded-2xl border border-gray-700 navbar {scrolled ? 'shadow-on-scroll' : ''}">
+            <div><a href="https://nikolai.vip/" target="_blank" ><NGB color_mode={color_mode}/></a></div>
+            <button on:click={() => toggle_hamburger = !toggle_hamburger}>
+                <Hamburger size={size} color_mode={color_mode}/>
+            </button>
+        </div>
         <!--
         <div class="flex justify-between h-12 m-4 px-4 items-center rounded-2xl border border-gray-700 navbar {scrolled ? 'shadow-on-scroll' : ''}">
             <div><a href="https://nikolai.vip/" target="_blank" ><NGB color_mode={color_mode}/></a></div>
